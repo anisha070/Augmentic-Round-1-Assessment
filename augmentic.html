@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GharPerfect.com</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .login-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .big-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .team-member {
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 50%;
+            overflow: hidden; 
+ }
+        .team-member img {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+            border-radius: 50%; 
+        }
+        h1 {
+            text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar a {
+                margin: 10px 0;
+            }
+
+            .team-member {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="brand">
+            <a href="#">GharPerfect.com</a>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#product">Product</a>
+            <a href="#testimonial">Testimonial</a>
+            <a href="#contact">Contact</a>
+            <button class="login-button">Login</button>
+        </div>
+    </div>
+
+    <!-- Big Image -->
+    <img class="big-image" src="https://static1.squarespace.com/static/5ef3455cb2c72336fe854c37/t/5f3bdc5d86c1c22c83b5223b/1597081212295/coconut-landing-model-home-the-palm.jpg?format=1500w" alt="Big Image">
+
+    <!-- Meet Our Team -->
+    <h1>Meet Our Team</h1>
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="https://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt="Team Member 1">
+            <h3>Joya Anderson</h3>
+            <p>Graphic Designer</p>
+            
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <img src="https://assets.codepen.io/14179/internal/avatars/users/default.png?fit=crop&format=auto&height=256&version=1506906314&width=256" alt="Team Member 2">
+            <h3>Michael Desouza</h3>
+            <p>Web Developer</p>
+      
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <img src="https://assets.codepen.io/110238/internal/avatars/users/default.png?fit=crop&format=auto&height=256&version=1637000174&width=256" alt="Team Member 3">
+            
+            <h3>Jaya Afriki</h3>
+            <p>Content Writer</p>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member">
+            <img src="https://assets.codepen.io/1546529/internal/avatars/users/default.png?fit=crop&format=auto&height=256&version=1522337373&width=256" alt="Team Member 4">
+            <h3>Briganza</h3>
+            <p>Blog Writer</p>
+            
+
+        </div>
+    </div>
+
+   
+</body>
+</html>
